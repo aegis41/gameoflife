@@ -174,7 +174,8 @@ class Main extends React.Component {
         let grid= Array(this.rows).fill().map(() => Array(this.cols).fill(false));
         this.setState({
             gridFull: grid,
-            generation: 0
+            generation: 0,
+            gameOver: false
         });
     }
 
